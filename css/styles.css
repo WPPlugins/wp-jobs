@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+.mainfrm {
+    width:500px;
+    padding:20px;
+}
+.frmLabel {
+    width:150px;
+    float:left;
+}
+.frmField {
+    width:250px;
+    float:left;
+}
+.slt-box {
+    border: 1px solid #ccc;
+    padding: 6px 4px;
+    outline: none;
+    font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    margin: 0;
+    margin-bottom: 20px;
+    background: #fff;
+    float:left;
+}
+.rgfrm td {
+    vertical-align:middle !important;
+    padding-bottom:5px;
+}
+.rgfrm input, .rgfrm select {
+    margin-bottom:0px !important;
+}
+.AdmfrmLabel {
+    width:85px;
+    float:left;
+}
+.AdmfrmFld {
+    float:left;
+}
+.SpacerDiv {
+    height:10px;
+    clear:both;
+}
+#ProDescription {
+    width: 600px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    line-height: 20px;
+}
+.heading {
+    padding: 10px;
+    height: 12px;
+    background-color: #F2EDDB;
+    font-weight: bold;
+}
+.ProSpecs{
+    font-size: 16px;
+    line-height: 20px;
+}
+.SpecLabel{
+    width:250px;
+    float:left;
+    line-height: 20px;
+}
+.SpecInfo{
+    width:300px;
+    float:left;
+    line-height: 20px;
+}
+.ProPhotos {
+    width:600px;
+}
+#frmInquiry {}
+#frmInquiry input {
+    height: 33px;
+}
+#frmInquiry textarea {
+    background-color: #FFF;
+    width: 300px;
+    height:100px;
+    border: 1px solid #000;
+}
+#frmInquiry input[type="submit"] {
+    color:#000;
+}
+#divAgent {}
+#address {
+    font-size: 12px;
+    color: #666;
+}
+#PropertyQuickView {
+    width:98%;
+    margin: 5px;
+    border: 1px solid #666;
+}
+#PropertyQuickView .QVImage {
+    width:155px;
+    float:left;
+    padding:5px;
+}
+#PropertyQuickView .QVProInfo {
+    width:75%px;
+    float:left;
+    padding:5px;
+    line-height: 20px;
+}
+.mceContentBody body {     
+    background-color: #FFF !important;
+} 
+#tinymce .mceContentBody {
+    background-color:#000000 !important;
+}
+#mytrem {
+    margin:0 !important;
+}
+.ulstyle {
+    list-style-position: inside !important;
+}
